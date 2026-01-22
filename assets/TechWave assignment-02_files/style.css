@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-fonts{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1600px;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.bg-light{
+    background-color: #412567;
+}
