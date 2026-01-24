@@ -89,7 +89,7 @@ gap: 10px;
     justify-content: center;
     gap: 24px;
 }
-.hero-mircophone{
+.hero-microphone{
     background-image: url("./assets/hero-circle.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -100,7 +100,7 @@ gap: 10px;
     /* margin-top: -150px; */
     position: relative;
 }
-.hero-mircophone img{
+.hero-microphone img{
     max-width: 100%;
 }
 #new{
@@ -226,4 +226,28 @@ background: rgba(53, 17, 101, 0.4);
 }
 .grid-img{
     max-width: 100%;
+}
+.featured-box-container{
+    display: flex;
+    gap: 30px;
+}
+.featured-box{
+    /* background: rgba(26, 11, 46, 1); */
+}
+.featured-video{
+    border-radius: 24px;
+}
+.featured-content{
+    padding: 24px;
+}
+.vedio-duration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+}
+.clock{
+    width: 20px;
+    height: 20px;
 }
